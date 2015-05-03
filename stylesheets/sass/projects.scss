@@ -191,6 +191,15 @@ article img{
 	max-width: 100%;
 }
 
+article a{
+	border-bottom: 1px solid #424242;
+}
+
+article a:hover{
+	color: #a8a8a8;
+	border-bottom: 1px solid #a8a8a8;
+}
+
 /*
 **
 **

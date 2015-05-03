@@ -412,6 +412,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/projects\/community-canvas.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/projects\/community-canvas.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/projects\/farm-table.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -438,6 +447,28 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/projects\/project-images\/canvas1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 531342,
+		"inputAbbreviatedPath": "\/projects\/project-images\/canvas1.jpg",
+		"outputAbbreviatedPath": "\/projects\/project-images\/canvas1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/projects\/project-images\/canvas2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 652568,
+		"inputAbbreviatedPath": "\/projects\/project-images\/canvas2.jpg",
+		"outputAbbreviatedPath": "\/projects\/project-images\/canvas2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/projects\/project-images\/farm-table.jpg": {
 		"fileType": 16384,
