@@ -184,6 +184,11 @@ article p, article li, blockquote{
 	line-height: 2em;
 }
 
+article img{
+	display: block;
+	clear: both;
+}
+
 /*
 **
 **
@@ -214,11 +219,11 @@ article p, article li, blockquote{
 	  @include span-columns(4);
 	}
 	@include media($tablet) {
-	  	@include span-columns(3);
+	  	@include span-columns(6);
 	  	@include shift(1);
 	}
 	@include media($desktop) {
-	  	@include span-columns(5);
+	  	@include span-columns(10);
 	  	@include shift(1);
 	}
 	input{
@@ -234,18 +239,6 @@ article p, article li, blockquote{
     	@include padding(0.5em);
     	cursor: pointer;
     	width: 25%;
-	}
-}
-
-.next-up{
-	@include media($mobile) {
-	  @include span-columns(4);
-	}
-	@include media($tablet) {
-	  	@include span-columns(3);
-	}
-	@include media($desktop) {
-	  	@include span-columns(5);
 	}
 }
 

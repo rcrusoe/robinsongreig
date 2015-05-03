@@ -219,6 +219,10 @@ article p, article li, blockquote {
   font-size: 1.25em;
   line-height: 2em; }
 
+article img {
+  display: block;
+  clear: both; }
+
 /*
 **
 **
@@ -252,7 +256,7 @@ article p, article li, blockquote {
     float: left;
     display: block;
     margin-right: 3.5786636068%;
-    width: 35.2633352458%;
+    width: 74.1053340983%;
     margin-left: 12.9473329508%; }
     .subscribe:last-child {
       margin-right: 0; } }
@@ -261,7 +265,7 @@ article p, article li, blockquote {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
-    width: 40.2913699012%;
+    width: 82.9403914003%;
     margin-left: 8.5298042998%; }
     .subscribe:last-child {
       margin-right: 0; } }
@@ -277,31 +281,6 @@ article p, article li, blockquote {
   padding: 0.5em;
   cursor: pointer;
   width: 25%; }
-
-@media screen and (min-width: 320px) and (max-width: 720px) {
-  .next-up {
-    float: left;
-    display: block;
-    margin-right: 7.4229703521%;
-    width: 100%; }
-    .next-up:last-child {
-      margin-right: 0; } }
-@media screen and (min-width: 720px) and (max-width: 960px) {
-  .next-up {
-    float: left;
-    display: block;
-    margin-right: 3.5786636068%;
-    width: 35.2633352458%; }
-    .next-up:last-child {
-      margin-right: 0; } }
-@media screen and (min-width: 960px) {
-  .next-up {
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 40.2913699012%; }
-    .next-up:last-child {
-      margin-right: 0; } }
 
 /*
 **
