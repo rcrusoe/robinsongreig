@@ -445,6 +445,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/projects\/project-images\/traditional-vise.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93463,
+		"inputAbbreviatedPath": "\/projects\/project-images\/traditional-vise.jpg",
+		"outputAbbreviatedPath": "\/projects\/project-images\/traditional-vise.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/projects\/project-images\/vise1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91120,
+		"inputAbbreviatedPath": "\/projects\/project-images\/vise1.jpg",
+		"outputAbbreviatedPath": "\/projects\/project-images\/vise1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/projects\/project-images\/vise2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 190261,
+		"inputAbbreviatedPath": "\/projects\/project-images\/vise2.jpg",
+		"outputAbbreviatedPath": "\/projects\/project-images\/vise2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/projects\/project-images\/vise3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 261319,
+		"inputAbbreviatedPath": "\/projects\/project-images\/vise3.jpg",
+		"outputAbbreviatedPath": "\/projects\/project-images\/vise3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/projects\/project-images\/vise4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 219731,
+		"inputAbbreviatedPath": "\/projects\/project-images\/vise4.jpg",
+		"outputAbbreviatedPath": "\/projects\/project-images\/vise4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/projects\/project-images\/vise5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 171786,
+		"inputAbbreviatedPath": "\/projects\/project-images\/vise5.jpg",
+		"outputAbbreviatedPath": "\/projects\/project-images\/vise5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/projects\/red-oak-benches.html": {
 		"fileType": 8192,
 		"ignore": 0,

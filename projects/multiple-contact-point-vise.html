@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../stylesheets/css/projects.css">
+	<title>Robinson Greig</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,400italic,500,300italic,300,100,100italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="shortcut icon" type="image/png" href="../images/favicon.png"/>
+	<script src="../js/headroom.js/dist/headroom.js"></script>
+</head>
+<body>
+	<div id="header" class="header header--fixed hide-from-print" role="banner">
+		<div class="container">
+			<div class="page-title">
+				<h3><a href="http://www.robinsongreig.com">Robinson Greig</a></h3>
+			</div>
+			<div class="social-icons">
+				<a href="https://github.com/rcrusoe" target="blank"><img src="../images/github.png"></a>
+				<a href="https://www.linkedin.com/pub/robinson-greig/36/681/aab" target="blank"><img src="../images/linkedin.png"></a>
+				<a href="https://twitter.com/robinsongreig" target="blank"><img src="../images/twitter.png"></a>
+			</div>
+		</div>
+	</div>
+	<div class="article-header">
+		<div class="container">
+			<div class="article-title">
+				<h1>
+					Multiple Contact Point Vise
+				</h1>
+				<p>
+					Apr 22, 2012
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<article>
+			<p>
+				I spent enough time working with irregularly-shaped parts to be frustrated with traditional flat plate vise designs.  This design works very well when grabbing onto parts with two parallel sides, but when grabbing on to parts of any other shape, deformation of the part is required in order to create enough contact surface area for the vise to get a strong hold on the part.  When working with plastic parts, deforming the part is often not desired, so I came up with an alternative vise design.
+			</p>
+			<img src="project-images/traditional-vise.jpg">
+			<p>
+				My vise design was inspired by the theory of integration.  In calculus, one use of integration is to calculate the are under a curve.  If done manually, small rectangles or trapezoids (depending on the method used) are drawn along the curve, and the total area of all of these shapes is equal to a rough estimate of the area under the curve.  The accuracy of this calculation is dependent upon the number of sections that the area is segmented into.
+			</p>
+			<p>
+				The traditional flat plate vise design offers only one section, which is a great 'estimate' if the part one is attempting to grab is square in shape.  For irregular shapes, the single section offers an inaccurate estimate, so I sought out a design that would allow a greater number of sections, or contact points.
+			</p>
+			<p>
+				Enter, the use of an array of individually spring-loaded pins.
+			</p>
+			<img src="project-images/vise1.jpg">
+			<img src="project-images/vise2.jpg">
+			<img src="project-images/vise3.jpg">
+			<img src="project-images/vise4.jpg">
+			<img src="project-images/vise5.jpg">
+	</div>
+	<div class="article-footer">
+		<div class="container">
+			<div class="subscribe">
+				<p>
+					Get my newsletter, usually once per week.  I write about a range of topics from startups to education to lifestyle.
+				</p>
+				<!-- Begin MailChimp Signup Form -->
+				<div id="mc_embed_signup">
+				<form action="//robinsongreig.us8.list-manage.com/subscribe/post?u=c71ca50457562b465f19cc3b6&amp;id=bf19c48476" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				    <div id="mc_embed_signup_scroll">
+					
+				<div class="mc-field-group">
+					<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your Email Address">
+				</div>
+					<div id="mce-responses" class="clear">
+						<div class="response" id="mce-error-response" style="display:none"></div>
+						<div class="response" id="mce-success-response" style="display:none"></div>
+					</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				    <div style="position: absolute; left: -5000px;"><input type="text" name="b_c71ca50457562b465f19cc3b6_bf19c48476" tabindex="-1" value=""></div>
+				    <div class="clear"><input type="submit" value="Subscribe" name="Enter" id="mc-embedded-subscribe" class="button"></div>
+				    </div>
+				</form>
+				</div>
+
+				<!--End mc_embed_signup-->
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<p>Copyright 2015 Robinson Greig</p>
+		</div>
+	</footer>
+
+<!--Hide and show the header on scroll-->
+<script type="text/javascript">
+	(function() {
+    var header = new Headroom(document.querySelector("#header"), {
+        tolerance: 10,
+        offset : 10,
+        classes: {
+          initial: "animated",
+          pinned: "slideDown",
+          unpinned: "slideUp"
+        }
+    });
+    header.init();
+
+    var bttHeadroom = new Headroom(document.getElementById("#header"), {
+        tolerance : 0,
+        offset : 10,
+        classes : {
+            initial : "slide",
+            pinned : "slide--reset",
+            unpinned : "slide--down"
+        }
+    });
+    bttHeadroom.init();
+}());
+</script>
+</body>
+</html>
