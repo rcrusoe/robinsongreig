@@ -33,9 +33,13 @@ h2{
 	line-height: 1.75em;
 }
 
-p, li{
+p, li, input, input[type="submit"], blockquote{
 	font-size: 1.125em;
 	font-weight: 300;
+}
+
+blockquote{
+	font-style: cursive;
 }
 
 a{
@@ -181,22 +185,65 @@ article p, article li{
 /*
 **
 **
-** NEXT
+** ARTICLE FOOTER
 **
 **
 */
+
+.article-footer{
+	width: 100%;
+	background-color: rgba(231,76,60,0.9);
+	@include margin(30px 0 0 0);
+	@include padding(30px 0);
+	p, a{
+		color: white;
+	}
+	a{
+		border-bottom: 1px solid white;
+	}
+	a:hover{
+		color: #d8d8d8;
+		border-bottom: 1px solid #d8d8d8;
+	}
+}
+
+.subscribe{
+	@include media($mobile) {
+	  @include span-columns(4);
+	}
+	@include media($tablet) {
+	  	@include span-columns(3);
+	  	@include shift(1);
+	}
+	@include media($desktop) {
+	  	@include span-columns(5);
+	  	@include shift(1);
+	}
+	input{
+		@include padding(0.5em);
+		@include margin(0 0.5em 1em 0);
+		float: left;
+		border: none;
+		width: 65%;
+	}
+	input[type="submit"] {
+    	background-color: #f1f1f1;
+    	color: rgba(231,76,60,0.9);
+    	@include padding(0.5em);
+    	cursor: pointer;
+    	width: 25%;
+	}
+}
 
 .next-up{
 	@include media($mobile) {
 	  @include span-columns(4);
 	}
 	@include media($tablet) {
-	  	@include span-columns(6);
-	  	@include shift(1);
+	  	@include span-columns(3);
 	}
 	@include media($desktop) {
-	  	@include span-columns(10);
-	  	@include shift(1);
+	  	@include span-columns(5);
 	}
 }
 
