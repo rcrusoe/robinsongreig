@@ -37,7 +37,9 @@ p, li, input, input[type="submit"], blockquote {
   font-weight: 300; }
 
 blockquote {
-  font-style: cursive; }
+  font-style: cursive;
+  background-color: #f1f1f1;
+  padding: 0.5em; }
 
 a {
   color: #424242;
@@ -213,7 +215,7 @@ h3 {
     article:last-child {
       margin-right: 0; } }
 
-article p, article li {
+article p, article li, blockquote {
   font-size: 1.25em;
   line-height: 2em; }
 

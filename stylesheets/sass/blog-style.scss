@@ -40,6 +40,8 @@ p, li, input, input[type="submit"], blockquote{
 
 blockquote{
 	font-style: cursive;
+	background-color: #f1f1f1;
+	@include padding(0.5em);
 }
 
 a{
@@ -177,7 +179,7 @@ article{
 	}
 }
 
-article p, article li{
+article p, article li, blockquote{
 	font-size: 1.25em;
 	line-height: 2em;
 }
