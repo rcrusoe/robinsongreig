@@ -221,7 +221,8 @@ article p, article li, blockquote {
 
 article img {
   display: block;
-  clear: both; }
+  clear: both;
+  margin: 1em 0; }
 
 /*
 **

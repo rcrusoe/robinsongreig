@@ -187,6 +187,7 @@ article p, article li, blockquote{
 article img{
 	display: block;
 	clear: both;
+	@include margin(1em 0);
 }
 
 /*
