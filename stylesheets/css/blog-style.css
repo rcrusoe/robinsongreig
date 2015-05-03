@@ -1,0 +1,289 @@
+/*$visual-grid: true;*/
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  margin: 0;
+  font-family: "Roboto", "Proxima Nova", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+
+.container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  color: #424242;
+  padding: 1em; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+h1 {
+  font-size: 2.0em;
+  font-weight: 700;
+  line-height: 1.5em;
+  color: white; }
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  color: #a8a8a8;
+  font-weight: 300;
+  line-height: 1.75em; }
+
+p, li {
+  font-size: 1.125em;
+  font-weight: 300; }
+
+a {
+  color: #424242;
+  text-decoration: none; }
+
+h3 {
+  margin: 0.75em 0; }
+
+/*
+**
+**
+** HEADER
+**
+**
+*/
+.header {
+  background-color: white; }
+
+.page-title {
+  text-align: left; }
+  @media screen and (min-width: 320px) and (max-width: 720px) {
+    .page-title {
+      float: left;
+      display: block;
+      margin-right: 7.4229703521%;
+      width: 46.288514824%; }
+      .page-title:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 720px) and (max-width: 960px) {
+    .page-title {
+      float: left;
+      display: block;
+      margin-right: 3.5786636068%;
+      width: 35.2633352458%;
+      margin-left: 12.9473329508%; }
+      .page-title:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 960px) {
+    .page-title {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 40.2913699012%;
+      margin-left: 8.5298042998%; }
+      .page-title:last-child {
+        margin-right: 0; } }
+
+.header--fixed {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  -webkit-transition-duration: .3s;
+  -moz-transition-duration: .3s;
+  transition-duration: .3s; }
+
+.slideDown {
+  transform: translateY(0%); }
+
+.slideUp {
+  transform: translateY(-100%);
+  -webkit-transform: translateY(-100%); }
+
+.social-icons {
+  text-align: right; }
+  @media screen and (min-width: 320px) and (max-width: 720px) {
+    .social-icons {
+      float: left;
+      display: block;
+      margin-right: 7.4229703521%;
+      width: 46.288514824%; }
+      .social-icons:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 720px) and (max-width: 960px) {
+    .social-icons {
+      float: left;
+      display: block;
+      margin-right: 3.5786636068%;
+      width: 35.2633352458%; }
+      .social-icons:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 960px) {
+    .social-icons {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 40.2913699012%; }
+      .social-icons:last-child {
+        margin-right: 0; } }
+
+.social-icons img {
+  float: right;
+  height: 30px;
+  padding: 0 5px 0 0;
+  margin: 0.75em 0; }
+
+/*
+**
+**
+** ARTICLE TITLE
+**
+**
+*/
+.article-header {
+  width: 100%;
+  background-color: rgba(231, 76, 60, 0.9);
+  margin: 85px 0 0;
+  padding: 30px 0; }
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  .article-title {
+    float: left;
+    display: block;
+    margin-right: 7.4229703521%;
+    width: 100%; }
+    .article-title:last-child {
+      margin-right: 0; } }
+@media screen and (min-width: 720px) and (max-width: 960px) {
+  .article-title {
+    float: left;
+    display: block;
+    margin-right: 3.5786636068%;
+    width: 74.1053340983%;
+    margin-left: 12.9473329508%; }
+    .article-title:last-child {
+      margin-right: 0; } }
+@media screen and (min-width: 960px) {
+  .article-title {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 82.9403914003%;
+    margin-left: 8.5298042998%; }
+    .article-title:last-child {
+      margin-right: 0; } }
+
+.article-title p {
+  margin: 0.75em 0 0; }
+.article-title h1 {
+  margin: 0; }
+
+/*
+**
+**
+** ARTICLE
+**
+**
+*/
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  article {
+    float: left;
+    display: block;
+    margin-right: 7.4229703521%;
+    width: 100%; }
+    article:last-child {
+      margin-right: 0; } }
+@media screen and (min-width: 720px) and (max-width: 960px) {
+  article {
+    float: left;
+    display: block;
+    margin-right: 3.5786636068%;
+    width: 74.1053340983%;
+    margin-left: 12.9473329508%; }
+    article:last-child {
+      margin-right: 0; } }
+@media screen and (min-width: 960px) {
+  article {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 82.9403914003%;
+    margin-left: 8.5298042998%; }
+    article:last-child {
+      margin-right: 0; } }
+
+article p, article li {
+  font-size: 1.25em;
+  line-height: 2em; }
+
+/*
+**
+**
+** NEXT
+**
+**
+*/
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  .next-up {
+    float: left;
+    display: block;
+    margin-right: 7.4229703521%;
+    width: 100%; }
+    .next-up:last-child {
+      margin-right: 0; } }
+@media screen and (min-width: 720px) and (max-width: 960px) {
+  .next-up {
+    float: left;
+    display: block;
+    margin-right: 3.5786636068%;
+    width: 74.1053340983%;
+    margin-left: 12.9473329508%; }
+    .next-up:last-child {
+      margin-right: 0; } }
+@media screen and (min-width: 960px) {
+  .next-up {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 82.9403914003%;
+    margin-left: 8.5298042998%; }
+    .next-up:last-child {
+      margin-right: 0; } }
+
+/*
+**
+**
+** FOOTER
+**
+**
+*/
+footer {
+  background-color: #424242;
+  padding: 30px 0; }
+
+footer p {
+  color: white; }
+  @media screen and (min-width: 320px) and (max-width: 720px) {
+    footer p {
+      float: left;
+      display: block;
+      margin-right: 7.4229703521%;
+      width: 100%; }
+      footer p:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 720px) and (max-width: 960px) {
+    footer p {
+      float: left;
+      display: block;
+      margin-right: 3.5786636068%;
+      width: 74.1053340983%;
+      margin-left: 12.9473329508%; }
+      footer p:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 960px) {
+    footer p {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 82.9403914003%;
+      margin-left: 8.5298042998%; }
+      footer p:last-child {
+        margin-right: 0; } }
