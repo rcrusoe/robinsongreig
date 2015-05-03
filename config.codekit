@@ -55,6 +55,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/blog\/blog-images\/book-store.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 684069,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/book-store.jpg",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/book-store.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/blog-images\/communication-tech.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25753,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/communication-tech.png",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/communication-tech.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/blog-images\/email.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94754,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/email.png",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/email.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/blog\/blog-images\/film-to-instagram.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -62,6 +95,28 @@
 		"initialSize": 8.10928e+06,
 		"inputAbbreviatedPath": "\/blog\/blog-images\/film-to-instagram.png",
 		"outputAbbreviatedPath": "\/blog\/blog-images\/film-to-instagram.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/blog-images\/healr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 144631,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/healr.png",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/healr.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/blog-images\/homepage.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 255145,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/homepage.jpeg",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/homepage.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -110,11 +165,73 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/blog\/blog-images\/mask.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 359599,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/mask.jpeg",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/mask.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/blog-images\/team-bio.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56402,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/team-bio.png",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/team-bio.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/blog-images\/team.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 85902,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/team.png",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/team.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/blog-images\/yc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 495342,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/yc.jpg",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/yc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/blog\/convergence-forces-uninformed-decisions-in-higher-education.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/blog\/convergence-forces-uninformed-decisions-in-higher-education.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/ideation-to-y-combinator-in-50-days.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/ideation-to-y-combinator-in-50-days.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/slow-down-and-write-me-a-letter.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/slow-down-and-write-me-a-letter.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -133,6 +250,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/blog\/the-impact-of-our-accessories.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/the-rise-and-fall-of-a-small-farm.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/the-rise-and-fall-of-a-small-farm.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
