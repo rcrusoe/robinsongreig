@@ -22,6 +22,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/blog\/blog-images\/apples.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 501941,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/apples.jpeg",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/apples.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/blog-images\/berries.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 785487,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/berries.jpg",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/berries.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/blog-images\/blossom.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 306650,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/blossom.jpg",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/blossom.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/blog\/blog-images\/film-to-instagram.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -33,6 +66,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/blog\/blog-images\/homestead.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 399495,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/homestead.jpg",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/homestead.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/blog\/blog-images\/items.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -40,6 +84,28 @@
 		"initialSize": 2.5273e+06,
 		"inputAbbreviatedPath": "\/blog\/blog-images\/items.png",
 		"outputAbbreviatedPath": "\/blog\/blog-images\/items.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/blog-images\/jerry.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 401882,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/jerry.jpg",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/jerry.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/blog-images\/market.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 222133,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/market.jpg",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/market.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
