@@ -412,6 +412,81 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/projects\/multiple-contact-point-vise.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/projects\/multiple-contact-point-vise.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/projects\/project-images\/gather.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 818088,
+		"inputAbbreviatedPath": "\/projects\/project-images\/gather.jpg",
+		"outputAbbreviatedPath": "\/projects\/project-images\/gather.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/projects\/project-images\/gather2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 689255,
+		"inputAbbreviatedPath": "\/projects\/project-images\/gather2.jpg",
+		"outputAbbreviatedPath": "\/projects\/project-images\/gather2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/projects\/project-images\/gather3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 634446,
+		"inputAbbreviatedPath": "\/projects\/project-images\/gather3.jpg",
+		"outputAbbreviatedPath": "\/projects\/project-images\/gather3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/projects\/project-images\/gather4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 256812,
+		"inputAbbreviatedPath": "\/projects\/project-images\/gather4.jpg",
+		"outputAbbreviatedPath": "\/projects\/project-images\/gather4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/projects\/project-images\/gather5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 269890,
+		"inputAbbreviatedPath": "\/projects\/project-images\/gather5.jpg",
+		"outputAbbreviatedPath": "\/projects\/project-images\/gather5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/projects\/project-images\/gather6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.00946e+06,
+		"inputAbbreviatedPath": "\/projects\/project-images\/gather6.jpg",
+		"outputAbbreviatedPath": "\/projects\/project-images\/gather6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/projects\/project-images\/red-oak-bench1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

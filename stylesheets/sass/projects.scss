@@ -188,6 +188,7 @@ article img{
 	display: block;
 	clear: both;
 	@include margin(1em 0);
+	max-width: 100%;
 }
 
 /*
