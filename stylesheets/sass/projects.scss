@@ -1,0 +1,278 @@
+/*$visual-grid: true;*/
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+$mobile-size:320px;
+$tablet-size:720px;
+$desktop-size:960px;
+$mobile: new-breakpoint(min-width $mobile-size max-width $tablet-size 4);
+$tablet: new-breakpoint(min-width $tablet-size max-width $desktop-size 8);
+$desktop: new-breakpoint(min-width $desktop-size 12);
+
+body{
+	@include margin(0);
+	font-family: 'Roboto','Proxima Nova', $helvetica;
+}
+
+.container{
+	@include outer-container;
+	color: #424242;
+	@include padding(1em);
+}
+
+h1{
+	font-size: 2.0em;
+	font-weight: 700;
+	line-height: 1.5em;
+	color: white;
+}
+
+h2{
+	font-family: 'Roboto Slab', serif;
+	color: #a8a8a8;
+	font-weight: 300;
+	line-height: 1.75em;
+}
+
+p, li, input, input[type="submit"], blockquote{
+	font-size: 1.125em;
+	font-weight: 300;
+}
+
+blockquote{
+	font-style: cursive;
+	background-color: #f1f1f1;
+	@include padding(0.5em);
+}
+
+a{
+	color: #424242;
+	text-decoration: none;
+}
+
+h3{
+	@include margin(0.75em 0);
+}
+
+/*
+**
+**
+** HEADER
+**
+**
+*/
+
+.header {
+	background-color: white;
+}
+
+.page-title{
+	@include media($mobile) {
+	  @include span-columns(2);
+	}
+	@include media($tablet) {
+	  	@include span-columns(3);
+	  	@include shift(1);
+	}
+	@include media($desktop) {
+	  	@include span-columns(5);
+	  	@include shift(1);
+	}
+	text-align: left;
+}
+
+.header--fixed {
+ position: fixed;
+ right: 0;
+ left: 0;
+ top: 0;
+ -webkit-transition-duration: .3s;
+ -moz-transition-duration: .3s;
+ transition-duration: .3s;
+}
+
+.slideDown {
+ transform: translateY(0%);
+}
+
+.slideUp {
+ transform: translateY(-100%);
+ -webkit-transform: translateY(-100%);
+}
+
+.social-icons{
+	@include media($mobile) {
+	  @include span-columns(2);
+	}
+	@include media($tablet) {
+	  	@include span-columns(3);
+	}
+	@include media($desktop) {
+	  	@include span-columns(5);
+	}
+	text-align: right;
+}
+
+.social-icons img{
+	float: right;
+	height: 30px;
+	@include padding(0 5px 0 0);
+	@include margin(0.75em 0);
+}
+
+/*
+**
+**
+** ARTICLE TITLE
+**
+**
+*/
+
+.article-header{
+	width: 100%;
+	background-color: rgba(231,76,60,0.9);
+	@include margin(85px 0 0 0);
+	@include padding(30px 0);
+}
+
+.article-title{
+	@include media($mobile) {
+	  @include span-columns(4);
+	}
+	@include media($tablet) {
+	  	@include span-columns(6);
+	  	@include shift(1);
+	}
+	@include media($desktop) {
+	  	@include span-columns(10);
+	  	@include shift(1);
+	}
+}
+
+.article-title{
+	p{	
+		@include margin(0.75em 0 0 0);
+	}
+	h1{
+		@include margin(0);
+	}
+}
+
+/*
+**
+**
+** ARTICLE
+**
+**
+*/
+
+article{
+	@include media($mobile) {
+	  @include span-columns(4);
+	}
+	@include media($tablet) {
+	  	@include span-columns(6);
+	  	@include shift(1);
+	}
+	@include media($desktop) {
+	  	@include span-columns(10);
+	  	@include shift(1);
+	}
+}
+
+article p, article li, blockquote{
+	font-size: 1.25em;
+	line-height: 2em;
+}
+
+/*
+**
+**
+** ARTICLE FOOTER
+**
+**
+*/
+
+.article-footer{
+	width: 100%;
+	background-color: rgba(231,76,60,0.9);
+	@include margin(30px 0 0 0);
+	@include padding(30px 0);
+	p, a{
+		color: white;
+	}
+	a{
+		border-bottom: 1px solid white;
+	}
+	a:hover{
+		color: #d8d8d8;
+		border-bottom: 1px solid #d8d8d8;
+	}
+}
+
+.subscribe{
+	@include media($mobile) {
+	  @include span-columns(4);
+	}
+	@include media($tablet) {
+	  	@include span-columns(3);
+	  	@include shift(1);
+	}
+	@include media($desktop) {
+	  	@include span-columns(5);
+	  	@include shift(1);
+	}
+	input{
+		@include padding(0.5em);
+		@include margin(0 0.5em 1em 0);
+		float: left;
+		border: none;
+		width: 65%;
+	}
+	input[type="submit"] {
+    	background-color: #f1f1f1;
+    	color: rgba(231,76,60,0.9);
+    	@include padding(0.5em);
+    	cursor: pointer;
+    	width: 25%;
+	}
+}
+
+.next-up{
+	@include media($mobile) {
+	  @include span-columns(4);
+	}
+	@include media($tablet) {
+	  	@include span-columns(3);
+	}
+	@include media($desktop) {
+	  	@include span-columns(5);
+	}
+}
+
+/*
+**
+**
+** FOOTER
+**
+**
+*/
+
+footer{
+	background-color: #424242;
+	@include padding(30px 0);
+}
+
+footer p{
+	color: white;
+	@include media($mobile) {
+	  @include span-columns(4);
+	}
+	@include media($tablet) {
+	  	@include span-columns(6);
+	  	@include shift(1)
+	}
+	@include media($desktop) {
+	  	@include span-columns(10);
+	  	@include shift(1)
+	}
+}
