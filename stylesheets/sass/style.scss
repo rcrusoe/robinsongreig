@@ -61,10 +61,12 @@ h3{
 	  @include span-columns(4);
 	}
 	@include media($tablet) {
-	  	@include span-columns(4);
+	  	@include span-columns(6);
+	  	@include shift(1);
 	}
 	@include media($desktop) {
-	  	@include span-columns(6);
+	  	@include span-columns(10);
+	  	@include shift(1);
 	}
 	@include margin(140px 0);
 }

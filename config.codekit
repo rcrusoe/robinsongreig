@@ -77,6 +77,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/blog\/blog-images\/disruptive-innovation.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83219,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/disruptive-innovation.png",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/disruptive-innovation.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/blog\/blog-images\/email.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -176,6 +187,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/blog\/blog-images\/mentor-mooc-continuum-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62243,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/mentor-mooc-continuum-2.png",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/mentor-mooc-continuum-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/blog-images\/mentor-mooc-continuum-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68581,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/mentor-mooc-continuum-3.png",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/mentor-mooc-continuum-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/blog-images\/mentor-mooc-continuum-4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73018,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/mentor-mooc-continuum-4.png",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/mentor-mooc-continuum-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/blog-images\/mentor-mooc-continuum.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18752,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/mentor-mooc-continuum.png",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/mentor-mooc-continuum.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/blog-images\/stanford-class-size.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9260,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/stanford-class-size.png",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/stanford-class-size.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/blog\/blog-images\/team-bio.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -268,6 +334,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/blog\/the-impact-of-our-accessories.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/the-mentor-mooc-continuum.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/the-mentor-mooc-continuum.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
