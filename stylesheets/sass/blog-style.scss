@@ -49,6 +49,10 @@ a{
 	text-decoration: none;
 }
 
+p{
+	font-family: 'Adobe Text Pro';
+}
+
 h3{
 	@include margin(0.75em 0);
 }
@@ -99,7 +103,7 @@ h3{
  -webkit-transform: translateY(-100%);
 }
 
-.social-icons{
+#header .social-icons{
 	@include media($mobile) {
 	  @include span-columns(2);
 	}
@@ -116,7 +120,11 @@ h3{
 	float: right;
 	height: 30px;
 	@include padding(0 5px 0 0);
-	@include margin(0.75em 0);
+	@include margin(0.625em 0);
+}
+
+#footer .social-icons img{
+	@include margin(0.2em 0);
 }
 
 /*
@@ -187,92 +195,92 @@ article p, article li, blockquote{
 /*
 **
 **
-** ARTICLE FOOTER
-**
-**
-*/
-
-.article-footer{
-	width: 100%;
-	background-color: rgba(231,76,60,0.9);
-	@include margin(30px 0 0 0);
-	@include padding(30px 0);
-	p, a{
-		color: white;
-	}
-	a{
-		border-bottom: 1px solid white;
-	}
-	a:hover{
-		color: #d8d8d8;
-		border-bottom: 1px solid #d8d8d8;
-	}
-}
-
-.subscribe{
-	@include media($mobile) {
-	  @include span-columns(4);
-	}
-	@include media($tablet) {
-	  	@include span-columns(3);
-	  	@include shift(1);
-	}
-	@include media($desktop) {
-	  	@include span-columns(5);
-	  	@include shift(1);
-	}
-	input{
-		@include padding(0.5em);
-		@include margin(0 0.5em 1em 0);
-		float: left;
-		border: none;
-		width: 65%;
-	}
-	input[type="submit"] {
-    	background-color: #f1f1f1;
-    	color: rgba(231,76,60,0.9);
-    	@include padding(0.5em);
-    	cursor: pointer;
-    	width: 25%;
-	}
-}
-
-.next-up{
-	@include media($mobile) {
-	  @include span-columns(4);
-	}
-	@include media($tablet) {
-	  	@include span-columns(3);
-	}
-	@include media($desktop) {
-	  	@include span-columns(5);
-	}
-}
-
-/*
-**
-**
 ** FOOTER
 **
 **
 */
 
-footer{
-	background-color: #424242;
-	@include padding(30px 0);
+#footer {
+	@include media($mobile) {
+	  display: none;
+	}
+   position:fixed;
+   left:0px;
+   bottom: -70px;
+   height: 70px;
+   width:100%;
+   background: #fff;
+   border-top: 3px solid #ea7168;
+   @include padding(15px null);
+   z-index: 10;
+   text-align: center;
+   -moz-transition:all 0.5s ease-in-out;
+   -o-transition:all 0.5s ease-in-out;
+   transition:all 0.5s ease-in-out;
+   -webkit-transition:all 0.5s ease-in-out;
+   input{
+		@include padding(0.625em);
+		@include margin(0 0.5em 0 0);
+		float: left;
+		border: none;
+		width: 65%;
+		background-color: #ff;
+		border: 1px solid #d8d8d8;
+		@include border-top-radius(3px);
+		@include border-right-radius(3px);
+		@include border-bottom-radius(3px);
+		@include border-left-radius(3px);
+		font-size: 0.875em;
+	}
+	input:focus{
+		background-color: #fcfcfc;
+		box-shadow: 2px 2px 2px 2px #f1f1f1;
+		outline: #f1f1f1;
+	}
+   input[type="submit"] {
+    	background-color: rgba(231,76,60,0.9);
+    	border: none;
+    	color: #fff;
+    	cursor: pointer;
+    	width: 25%;
+	}
+	p{
+		font-size: .875em;
+	}
 }
 
-footer p{
-	color: white;
-	@include media($mobile) {
-	  @include span-columns(4);
-	}
+.footer-left{
 	@include media($tablet) {
-	  	@include span-columns(6);
-	  	@include shift(1)
+	  	@include span-columns(2);
 	}
 	@include media($desktop) {
-	  	@include span-columns(10);
-	  	@include shift(1)
+	  	@include span-columns(1);
+	  	@include shift(2);
 	}
+	text-align: left;
+	border-right: 3px solid #f1f1f1;
+}
+
+.footer-center{
+	@include media($tablet) {
+	  	@include span-columns(2);
+	}
+	@include media($desktop) {
+	  	@include span-columns(4);
+	  	@include shift (1);
+	}
+	@include margin(.125em 0);
+}
+
+
+.footer-right{
+	@include media($tablet) {
+	  	@include span-columns(2);
+	}
+	@include media($desktop) {
+	  	@include span-columns(1);
+	  	@include shift (1);
+	}
+	text-align: right;
+	border-left: 3px solid #f1f1f1;
 }
