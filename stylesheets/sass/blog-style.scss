@@ -201,9 +201,6 @@ article p, article li, blockquote{
 */
 
 #footer {
-	@include media($mobile) {
-	  display: none;
-	}
    position:fixed;
    left:0px;
    bottom: -70px;
@@ -250,6 +247,9 @@ article p, article li, blockquote{
 }
 
 .footer-left{
+	@include media($mobile) {
+	  display: none;
+	}
 	@include media($tablet) {
 	  	@include span-columns(2);
 	}
@@ -262,8 +262,11 @@ article p, article li, blockquote{
 }
 
 .footer-center{
+	@include media($mobile) {
+	  @include span-columns (3);
+	}
 	@include media($tablet) {
-	  	@include span-columns(2);
+	  	@include span-columns(4);
 	}
 	@include media($desktop) {
 	  	@include span-columns(4);
@@ -274,6 +277,9 @@ article p, article li, blockquote{
 
 
 .footer-right{
+	@include media($mobile) {
+	  @include span-columns(1);
+	}
 	@include media($tablet) {
 	  	@include span-columns(2);
 	}
