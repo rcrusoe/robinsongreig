@@ -11,7 +11,13 @@
 	<link rel="shortcut icon" type="image/png" href="../images/favicon.png"/>
 	<script src="../js/headroom.js/dist/headroom.js"></script>
 	<script src="//load.sumome.com/" data-sumo-site-id="039de555ac986d61ba4eee2790ffdbb23ad3c259208e426fe1331d29bede2b4b" async="async"></script>
-
+	<!--
+	//
+	//
+	// Metadata
+	//
+	//
+	-->
 	<!-- for Google -->
 	<meta name="description" content="Purposed-driven learning could enable students to get more out of their education." />
 	<meta name="keywords" content="education, learning, purpose-driven learning, pbl, higher education, education reform"/>
@@ -22,14 +28,14 @@
 	<meta property="og:title" content="Purpose-Driven Learning: A New Lens for Higher Education" />
 	<meta property="og:type" content="article" />
 	<meta property="og:image" content="" />
-	<meta property="og:url" content="www.robinsongreig.com/blog/purpose-driven-learning" />
+	<meta property="og:url" content="www.robinsongreig.com/blog/purpose-driven-learning.html" />
 	<meta property="og:description" content="Purposed-driven learning could enable students to get more out of their education." />
 
 	<!-- for Twitter -->          
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="Purpose-Driven Learning: A New Lens for Higher Education" />
-	<meta name="twitter:description" content="" />
-	<meta name="twitter:image" content="Purposed-driven learning could enable students to get more out of their education." />
+	<meta name="twitter:description" content="Purposed-driven learning could enable students to get more out of their education." />
+	<meta name="twitter:image" content="" />
 </head>
 <body>
 	<div id="header" class="header header--fixed hide-from-print" role="banner">
@@ -44,6 +50,14 @@
 			</div>
 		</div>
 	</div>
+
+	<!--
+	//
+	//
+	// Article Content
+	//
+	//
+	-->
 	<div class="article-header">
 		<div class="container">
 			<div class="article-title">
@@ -108,9 +122,11 @@
 			</p>
 
 			<!--
-			**
-			** DISQUS FORUM
-			**
+			//
+			//
+			// Disqus Forum
+			//
+			//
 			-->
 			<div id="disqus_thread"></div>
 			<script type="text/javascript">
@@ -127,6 +143,13 @@
 			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 		</article>
 	</div>
+	<!--
+	//
+	//
+	// Footer
+	//
+	//
+	-->
 	<div id="footer">
 		<div class="footer-left">
 			<p>
@@ -152,12 +175,12 @@
 				</div>
 		</div>
 		<div class="footer-right">
-				<p><a href="www.robinsongreig.com/blog/who-have-you-almost-become.html">Next Essay</a></p>
+				<p><a href="/who-have-you-almost-become.html">Next Essay</a></p>
 			</p>
 		</div>
 	</div>
 
-<!--Hide and show the header on scroll-->
+<!--Header/Footer Animation-->
 <script type="text/javascript">
 	(function() {
 	    var header = new Headroom(document.querySelector("#header"), {
@@ -204,24 +227,8 @@
 	    bttHeadroom.init();
 	}());
 </script>
-<script type="text/javascript">
-		// We bind a new event to our link
-	$('a.tweet').click(function(e){
-	 
-	  //We tell our browser not to follow that link
-	  e.preventDefault();
-	 
-	  //We get the URL of the link
-	  var loc = $(this).attr('href');
-	 
-	  //We get the title of the link
-	  var title  = encodeURIComponent($(this).attr('title'));
-	 
-	  //We trigger a new window with the Twitter dialog, in the middle of the page
-	  window.open('http://twitter.com/share?url=' + loc + '&text=' + title + '&', 'twitterwindow', 'height=450, width=550, top='+($(window).height()/2 - 225) +', left='+$(window).width()/2 +', toolbar=0, location=0, menubar=0, directories=0, scrollbars=0');
-	 
-	});
-</script>
+
+<!-- Google Analytics Script-->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
