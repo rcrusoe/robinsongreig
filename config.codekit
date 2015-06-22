@@ -66,6 +66,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/blog\/blog-images\/canvas1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58139,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/canvas1.jpg",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/canvas1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/blog-images\/canvas2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113400,
+		"inputAbbreviatedPath": "\/blog\/blog-images\/canvas2.jpg",
+		"outputAbbreviatedPath": "\/blog\/blog-images\/canvas2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/blog\/blog-images\/communication-tech.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -280,6 +302,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/blog\/convergence-forces-uninformed-decisions-in-higher-education.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/creativity-starts-with-just-one-stroke.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/creativity-starts-with-just-one-stroke.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

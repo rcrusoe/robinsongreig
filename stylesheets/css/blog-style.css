@@ -45,9 +45,6 @@ a {
   color: #424242;
   text-decoration: none; }
 
-p {
-  font-family: 'Adobe Text Pro'; }
-
 h3 {
   margin: 0.75em 0; }
 
@@ -309,7 +306,7 @@ article p, article li, blockquote {
       float: left;
       display: block;
       margin-right: 3.5786636068%;
-      width: 22.3160022949%; }
+      width: 48.2106681966%; }
       .footer-center:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 960px) {
