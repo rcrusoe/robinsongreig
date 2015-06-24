@@ -143,6 +143,10 @@ h3 {
 #footer .social-icons img {
   margin: 0.2em 0; }
 
+.twitter-follow-button{
+  margin: 1em 0 0.625em 0 !important;
+}
+
 /*
 **
 **
