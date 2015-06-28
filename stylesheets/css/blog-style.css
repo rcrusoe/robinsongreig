@@ -34,7 +34,9 @@ h2 {
 
 p, li, input, input[type="submit"], blockquote {
   font-size: 1.125em;
-  font-weight: 300; }
+  font-weight: 300; 
+  line-height: 1.625em;
+}
 
 blockquote {
   font-style: cursive;
