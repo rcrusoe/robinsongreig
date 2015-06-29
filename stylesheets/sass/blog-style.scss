@@ -7,6 +7,9 @@ $desktop-size:960px;
 $mobile: new-breakpoint(min-width $mobile-size max-width $tablet-size 4);
 $tablet: new-breakpoint(min-width $tablet-size max-width $desktop-size 8);
 $desktop: new-breakpoint(min-width $desktop-size 12);
+$red: #ea5c4e;
+$charcoal: #424242;
+$light-grey: #d8d8d8;
 
 body{
 	@include margin(0);
@@ -15,7 +18,7 @@ body{
 
 .container{
 	@include outer-container;
-	color: #424242;
+	color: $charcoal;
 	@include padding(1em);
 }
 
@@ -35,7 +38,7 @@ h2{
 
 p, li, input, input[type="submit"], blockquote{
 	font-size: 1.125em;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 blockquote{
@@ -45,12 +48,18 @@ blockquote{
 }
 
 a{
-	color: #424242;
+	color: $charcoal;
 	text-decoration: none;
 }
 
 h3{
 	@include margin(0.75em 0);
+}
+
+img{
+	max-width: 90%;
+	display: block;
+	margin: auto;
 }
 
 /*
@@ -98,8 +107,7 @@ h3{
 	}
 	input:focus{
 		background-color: #fcfcfc;
-		box-shadow: 2px 2px 2px 2px #f1f1f1;
-		outline: #f1f1f1;
+		outline: $light-grey;
 	}
    input[type="submit"] {
     	background-color: rgba(231,76,60,0.9);
@@ -109,6 +117,10 @@ h3{
     	width: 25%;
     	@include margin(1px 0.5em 0 0);
 	}
+}
+
+.hidden{
+	display: none !important;
 }
 
 .page-title{
@@ -121,62 +133,78 @@ h3{
 	}
 	@include media($desktop) {
 	  	@include span-columns(2);
-	  	@include shift(0);
+	  	@include shift(2);
 	}
 	text-align: left;
 }
 
-.subscribe{
+.subscribe-button{
+	@include margin(.625em null null null);
+	background-color: $red;
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
 	@include media($mobile) {
 	  display: none;
 	}
 	@include media($tablet) {
-	  	@include span-columns(4);
+	  	@include span-columns(2);
+	}
+	@include media($desktop) {
+	  	@include span-columns(2);
+	  	@include shift(2);
+	}
+	p{
+		@include padding(0.25em);
+		@include margin(0);
+	}
+	&:hover{
+		opacity: 0.7;
+	}
+}
+
+.subscribe{
+	display:none;
+	@include margin(0.5em null null null);
+	@include media($mobile) {
+	  	display: none;
+	}
+	@include media($tablet) {
+	  	@include span-columns(5);
+	  	text-align: right;
 	}
 	@include media($desktop) {
 	  	@include span-columns(5);
-	  	@include shift(3);
+	  	@include shift(1);
+	  	text-align: center;
 	}
-	text-align: right;
-	@include margin(0.5em null null null);
 }
 
-.social-icons{
+.follow-me{
+	@include margin(1em null null null);
+	text-align: right;
 	@include media($mobile) {
 	  @include span-columns(2);
 	}
 	@include media($tablet) {
-	  	@include span-columns(2);
+	  	@include span-columns(3);
 	}
 	@include media($desktop) {
 	  	@include span-columns(2);
 	}
-	text-align: right;
-	@include margin(1em null null null);
-}
-
-.social-icons img{
-	float: right;
-	height: 30px;
-	@include padding(0 5px 0 0);
-	@include margin(0.625em 0);
-}
-
-#footer .social-icons img{
-	@include margin(0.2em 0);
 }
 
 /*
 **
 **
-** ARTICLE TITLE
+** ARTICLE TI1
 **
 **
 */
 
 .article-header{
 	width: 100%;
-	background-color: rgba(231,76,60,0.9);
+	background-color: $red;
 	@include margin(85px 0 0 0);
 	@include padding(30px 0);
 }
@@ -228,6 +256,15 @@ article{
 		font-size: 1.25em;
 		line-height: 1.75em;
 	}
+	a{
+		color: $red;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+	img{
+		max-width: 100%;
+	}
 }
 
 /*
@@ -239,93 +276,42 @@ article{
 */
 
 footer{
-	background-color: #424242;
-	a{
+	background-color: $charcoal;
+	@include padding(1em 0 3em 0);
+	a, p{
 		color: white;
 	}
-	a:hover{
+	a{
 		text-decoration: underline;
 	}
-	.footer-content{
-		@include padding(4em 0);
-		@include media($mobile) {
-		  	@include span-columns(4);
-		}
-		@include media($tablet) {
-		  	@include span-columns(6);
-		  	@include shift(1);
-		}
-		@include media($desktop) {
-		  	@include span-columns(8);
-		  	@include shift(2);
-		}
+	a:hover{
+		color: $light-grey;
 	}
-}
-
-/*
-**
-**
-** ARTICLE NAVIGATION
-**
-**
-
-
-#footer {
+	.footer-left{
 	@include media($mobile) {
-	  display: none;
+		display: none;
 	}
-   position:fixed;
-   left:0px;
-   bottom: -70px;
-   height: 70px;
-   width:100%;
-   background: #fff;
-   border-top: 3px solid #ea7168;
-   @include padding(15px null);
-   z-index: 10;
-   text-align: center;
-   -moz-transition:all 0.5s ease-in-out;
-   -o-transition:all 0.5s ease-in-out;
-   transition:all 0.5s ease-in-out;
-   -webkit-transition:all 0.5s ease-in-out;
-	p{
-		font-size: .875em;
-	}
-}
-
-.footer-left{
 	@include media($tablet) {
-	  	@include span-columns(2);
-	}
-	@include media($desktop) {
-	  	@include span-columns(1);
+	  	@include span-columns(3);
 	  	@include shift(1);
 	}
+	@include media($desktop) {
+	  	@include span-columns(4);
+	  	@include shift(2);
+	}
 	text-align: left;
-	border-right: 3px solid #f1f1f1;
-}
+	}
 
-.footer-center{
-	@include media($tablet) {
-	  	@include span-columns(4);
+	.footer-right{
+		@include media($mobile) {
+			@include span-columns(4);
+		}
+		@include media($tablet) {
+		  	@include span-columns(3);
+		}
+		@include media($desktop) {
+		  	@include span-columns(4);
+		}
+		text-align: right;
 	}
-	@include media($desktop) {
-	  	@include span-columns(4);
-	  	@include shift (2);
-	}
-	@include margin(.125em 0);
 }
-
-
-.footer-right{
-	@include media($tablet) {
-	  	@include span-columns(2);
-	}
-	@include media($desktop) {
-	  	@include span-columns(1);
-	  	@include shift (2);
-	}
-	text-align: right;
-	border-left: 3px solid #f1f1f1;
-}
-*/

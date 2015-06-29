@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".subscribe-button").click(function(){$(".social-icons").addClass("hidden"),$(".subscribe-button").addClass("hidden"),$(".subscribe").removeClass("hidden"),$("#mce-EMAIL").focus()})});
